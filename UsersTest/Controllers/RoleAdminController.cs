@@ -11,6 +11,7 @@ using System.Collections.Generic;
 
 namespace UsersTest.Controllers
 {
+    [Authorize(Roles = "Administrators")]
     public class RoleAdminController : Controller
     {
         // GET: RoleAdmin
